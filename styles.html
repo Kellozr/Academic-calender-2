@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Academic Calendar</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="calendar-container">
+        <h1>Pillai College of Engineering - Tentative Term Calendar AY 2024-25</h1>
+        <div class="navigation">
+            <button id="prevMonth" class="nav-btn">← Previous</button>
+            <h2 id="monthTitle">July 2024</h2>
+            <button id="nextMonth" class="nav-btn">Next →</button>
+        </div>
+        <table>
+            <thead>
+                <tr>
+                    <th>Mo</th>
+                    <th>Tu</th>
+                    <th>We</th>
+                    <th>Th</th>
+                    <th>Fr</th>
+                    <th class="weekend">Sa</th>
+                    <th class="weekend">Su</th>
+                </tr>
+            </thead>
+            <tbody id="calendarBody">
+                <!-- Calendar body will be filled dynamically -->
+            </tbody>
+        </table>
+    </div>
+
+    <script src="calender.js"></script>
+</body>
+</html>
